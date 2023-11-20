@@ -5,7 +5,7 @@ class BandsController < ApplicationController
   def index
     @bands = Band.all
 
-    render json: @bands, only: %i[id name]
+    render json: @bands
   end
 
   # @route GET /bands/:id (band)
