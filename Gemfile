@@ -19,5 +19,8 @@ group :development, :test do
 end
 
 group :development do
-  # gem "spring"
+  gem "annotate"
+  gem "chusaku", require: false
+  gem "faker"
+  gem "rails-erd"
 end
