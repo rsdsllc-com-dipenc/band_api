@@ -6,13 +6,11 @@ gem "puma", ">= 5.0"
 gem "rails", "~> 7.1.2"
 gem "sqlite3", "~> 1.4"
 # gem "jbuilder"
-# gem "redis", ">= 4.0.1"
-# gem "kredis"
-# gem "bcrypt", "~> 3.1.7"
 gem "bootsnap", require: false
 gem "tzinfo-data", platforms: %i[windows jruby]
-# gem "image_processing", "~> 1.2"
 # gem "rack-cors"
+
+gem 'active_model_serializers', '~> 0.10.14'
 
 group :development, :test do
   gem "debug", platforms: %i[mri windows]
