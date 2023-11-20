@@ -1,3 +1,13 @@
+# == Route Map
+#
+# Prefix Verb   URI Pattern          Controller#Action
+#  bands GET    /bands(.:format)     bands#index
+#        POST   /bands(.:format)     bands#create
+#   band GET    /bands/:id(.:format) bands#show
+#        PATCH  /bands/:id(.:format) bands#update
+#        PUT    /bands/:id(.:format) bands#update
+#        DELETE /bands/:id(.:format) bands#destroy
+
 Rails.application.routes.draw do
   resources :bands
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
